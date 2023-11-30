@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "db.pzpzkooabuogpagsncap.supabase.co",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "venusconnect",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "cylfA9MS80IZEpeN"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "sqlconnection",
+            "database": "${workspaceFolder:SQLSUPER}/SQLITEDB/init.db"
+        }
+    ]
+}
